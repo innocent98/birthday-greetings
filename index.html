@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday!</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  h1 {
+    color: #ff6f61;
+  }
+  .birthday-img {
+    max-width: 200px;
+    border-radius: 50%;
+    animation: rotate 3s linear infinite;
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Happy Birthday!</h1>
+  <p>Dear Julius Adedigba,</p>
+  <p>Wishing you a day filled with love, joy, and happiness on your special day!</p>
+  <img src="./img.jpg" alt="Your Friend" class="birthday-img">
+</div>
+</body>
+</html>
